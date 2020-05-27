@@ -16,6 +16,8 @@
 	<div class="navbackground"></div>
 	<div class="background"></div>
 	
+	<a href="#details">Details</a>
+	
 	<h1>SpaceX Crew Demo-2 Start Coutdown</h1>
 	
 	<p id="demo"></p>
