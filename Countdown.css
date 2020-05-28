@@ -6,7 +6,7 @@ h1 {
 	margin-top: -70px
 }
 html {
-	background-image: url("SpaceX_Rocket.jpg");
+	background-image: url("SpaceX_Background.jpg");
 	background-repeat: no-repeat;
 	background-size: 100% !important;
 }
@@ -34,7 +34,7 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Gugi', cursive;
   transition: background-color .5s;
 }
 
@@ -62,6 +62,7 @@ body {
 
 .sidenav a:hover {
   color: #f1f1f1;
+  font-weight: bold;
 }
 
 .sidenav .closebtn {
@@ -83,6 +84,13 @@ body {
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+.missionText {
+	font-size: 25pt;
+	font-family: 'Gugi', cursive;
+	color: white;
+	margin-top: 55%;
 }
 
 /* .background { */
