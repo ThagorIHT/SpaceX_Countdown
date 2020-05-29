@@ -86,11 +86,28 @@ body {
   .sidenav a {font-size: 18px;}
 }
 
+.title {
+	transform: translate(-50%, calc(-50% + 1em));
+}
+
+.is-visible .heading {
+  transform: translate(-50%, -50%);
+}
+
+.heading {
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              filter 10s 2s ease-out;
+  will-change: transform;
+}
+
 .missionText {
-	font-size: 25pt;
+	font-size: 27pt;
 	font-family: 'Gugi', cursive;
 	color: white;
 	margin-top: 55%;
+	margin-left: 3.5%;
+	-webkit-font-smoothing: antialiased;
+	data-aos-delay="1200" data-aos="fade-up" data-aos-easing="ease"
 }
 
 /* .background { */

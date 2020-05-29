@@ -79,7 +79,7 @@
 	
 	<div>
 		<p class="missionText">
-			Die Demo-2 Mission ist der letzte Test bevor die</br>
+			Die Demo-2 Mission ist der letzte Test</br>bevor die
 			NASA, SpaceX für bemannte Weltraumflüge ins</br>
 			All zertifiziert. Bei der Mission sollen Douglas</br>
 			Hurley und Robert Behnken mit einem Dragon 2</br>
